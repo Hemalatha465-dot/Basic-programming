@@ -7,4 +7,13 @@ function isPrime(num) {
 }
 
 console.log(isPrime(7));  
-console.log(isPrime(8));  
+console.log(isPrime(8));
+
+//it is another branch
+function isEvenOdd(num) {
+  if (num % 2 === 0) return true;  
+  else return false;             
+}
+
+console.log(isEvenOdd(4)); 
+console.log(isEvenOdd(7)); 
